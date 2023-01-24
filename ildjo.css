@@ -1,0 +1,33 @@
+a {color: white; text-decoration: none;}
+.accordion-button::after {filter: brightness(0%) invert(100%);}
+.accordion-button:not(.collapsed)::after {filter: brightness(0%) invert(100%);}
+html {overflow-x: hidden;}
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: darkgray;
+    transition: opacity 0.75s, visibility 0.75s;
+}
+.loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+.loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid black;
+    border-top-color: white;
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+}
+@keyframes loading {
+    from { transform: rotate(0turn)}
+    to { transform: rotate(1turn)}
+}
