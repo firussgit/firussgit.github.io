@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-    <title>ILDJO - Boutique</title>
+    <title>ILDJO - Produit</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="/ildjo.css">
@@ -21,62 +21,98 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link" href="/">Acceuil</a>
-              <a class="nav-link active" aria-current="page" href="/boutique.html">Boutique</a>
-              <a class="nav-link" href="">Produit</a>
+              <a class="nav-link" href="/boutique.html">Boutique</a>
+              <a class="nav-link active" aria-current="page" href="">Produit</a>
             </div>
           </div>
         </div>
       </nav>
     </header>
 
-    <main>
-      <div class="row text-center">
-        <div class="col-6">
-          <div class="card border-0">
-            <a href="/produit_1.html"><img src="/images/MODELS/blue.png" class="card-img-top" alt="..."></a>
-              <div class="card-body">
-                <p class="card-text" style="margin:0">Hoodie - Simple</p>
-                <p class="card-text text-secondary">3000 DA</p>
-              </div>
+    <main class="text-center">
+      <div class="card border-0">
+        <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
           </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/MODELS/custom_4.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/MODELS/custom_4.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/MODELS/custom_4.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/MODELS/custom_4.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/MODELS/custom_4.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="col-6">
-          <div class="card border-0">
-            <a href="/produit_2.html"><img src="/images/MODELS/custom_1.png" class="card-img-top" alt="..."></a>
-              <div class="card-body">
-                <p class="card-text" style="margin:0">Hoodie - Custom Kitten</p>
-                <p class="card-text text-secondary">3500 DA</p>
-              </div>
-          </div>
-        </div>
-        <div class="col-6">
-          <div class="card border-0">
-            <a href="/produit_3.html"><img src="/images/MODELS/custom_2.png" class="card-img-top" alt="..."></a>
-              <div class="card-body">
-                <p class="card-text" style="margin:0">Hoodie - Custom Patrcik</p>
-                <p class="card-text text-secondary">3500 DA</p>
-              </div>
-          </div>
-        </div>
-        <div class="col-6">
-          <div class="card border-0">
-            <a href="/produit_4.html"><img src="/images/MODELS/custom_3.png" class="card-img-top" alt="..."></a>
-              <div class="card-body">
-                <p class="card-text" style="margin:0">Hoodie - Custom Naruto</p>
-                <p class="card-text text-secondary">3500 DA</p>
-              </div>
-          </div>
-        </div>
-        <div class="col-6">
-          <div class="card border-0">
-            <a href="/produit_5.html"><img src="/images/MODELS/custom_4.png" class="card-img-top" alt="..."></a>
-              <div class="card-body">
-                <p class="card-text" style="margin:0">Hoodie - Custom Girly Eyes</p>
-                <p class="card-text text-secondary">4000 DA</p>
-              </div>
-          </div>
+        <div class="card-body">
+          <p class="card-text" style="margin:0">Hoodie - Custom Girly Eyes</p>
+          <p class="card-text text-secondary">4000 DA</p>
         </div>
       </div>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, enim?</p>
+      <h5>Couleur:</h5>
+      <div class="row mb-3">
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+          <input type="radio" class="btn-check" name="color" id="color1" autocomplete="off" checked>
+          <label class="btn btn-info" for="color1">Blue</label>
+        
+          <input type="radio" class="btn-check" name="color" id="color2" autocomplete="off">
+          <label class="btn btn-danger" for="color2">Red</label>
+        
+          <input type="radio" class="btn-check" name="color" id="color3" autocomplete="off">
+          <label class="btn btn-success" for="color3">Green</label>
+        </div>
+      </div>
+      <h5>Taille:</h5>
+      <p>Veuillez selectionnez une taille</p>
+      <div class="row mb-3">
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
+          <label class="btn btn-outline-dark" style="width: 5px;" for="btnradio1">XS</label>
+        
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+          <label class="btn btn-outline-dark" style="width: 5px;" for="btnradio2">S</label>
+        
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+          <label class="btn btn-outline-dark" style="width: 5px;" for="btnradio3">M</label>
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+          <label class="btn btn-outline-dark" style="width: 5px;" for="btnradio4">L</label>
+        
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+          <label class="btn btn-outline-dark" style="width: 5px;" for="btnradio5">XL</label>
+        
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio6" autocomplete="off">
+          <label class="btn btn-outline-dark" style="width: 5px;" for="btnradio6"">XXL</label>
+        </div>
+      </div>
+      <h5>Durée d'expédition:</h5>
+      <p>1 - 4 Jours</p>
+      <h5>Détails du produit:</h5>
+      <p style="margin: 0;">&#x2022 Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, ipsum.</p>
+      <p>&#x2022 Lorem ipsum dolor sit amet.</p>
     </main>
 
     <footer class="bg-dark text-light text-center py-3 mt-5">
