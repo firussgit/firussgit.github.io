@@ -73,29 +73,41 @@
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, enim?</p>
       <h5>Couleur:</h5>
       <div class="row mb-3">
-        <div class="col border border-dark" style="background-color: skyblue; color: skyblue;"><br><br><br></div>
-        <div class="col border border-dark" style="background-color: burlywood; color: burlywood;"><br><br><br></div>
-        <div class="col border border-dark" style="background-color: darkred; color: darkred;"><br><br><br></div>
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+          <input type="radio" class="btn-check" name="color" id="color1" autocomplete="off" checked>
+          <label class="btn btn-info" for="color1">Blue</label>
+        
+          <input type="radio" class="btn-check" name="color" id="color2" autocomplete="off">
+          <label class="btn btn-danger" for="color2">Red</label>
+        
+          <input type="radio" class="btn-check" name="color" id="color3" autocomplete="off">
+          <label class="btn btn-success" for="color3">Green</label>
+        </div>
       </div>
       <h5>Taille:</h5>
       <p>Veuillez selectionnez une taille</p>
-      <table class="table table-bordered border-dark">
-        <tbody>
-          <tr>
-            <td>XXS</td>
-            <td>XS</td>
-            <td>S</td>
-          </tr>
-          <tr>
-            <td>M</td>
-            <td>L</td>
-            <td>XL</td>
-          </tr>
-          <tr>
-            <td colspan="3">XXL</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="row mb-3">
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
+          <label class="btn btn-outline-dark" style="width: 5px;" for="btnradio1">XS</label>
+        
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+          <label class="btn btn-outline-dark" style="width: 5px;" for="btnradio2">S</label>
+        
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+          <label class="btn btn-outline-dark" style="width: 5px;" for="btnradio3">M</label>
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+          <label class="btn btn-outline-dark" style="width: 5px;" for="btnradio4">L</label>
+        
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+          <label class="btn btn-outline-dark" style="width: 5px;" for="btnradio5">XL</label>
+        
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio6" autocomplete="off">
+          <label class="btn btn-outline-dark" style="width: 5px;" for="btnradio6"">XXL</label>
+        </div>
+      </div>
       <h5>Durée d'expédition:</h5>
       <p>1 - 4 Jours</p>
       <h5>Détails du produit:</h5>
