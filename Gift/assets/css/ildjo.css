@@ -1568,7 +1568,7 @@ Products Page
 .page-heading {
   margin-top: 160px;
   margin-bottom: 30px;
-  background-image: url(../images/products-page-heading.jpg);
+  background-image: url(/Gift/test/boutique.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1580,7 +1580,7 @@ Products Page
 }
 
 .page-heading .inner-content h2 {
-  font-size: 52px;
+  font-size: 35px;
   color: #fff;
   font-weight: 700;
   margin-bottom: 15px;
@@ -1927,7 +1927,7 @@ About Us Page
 }
 
 .about-us .right-content h4 {
-  font-size: 34px;
+  font-size: 20px;
   font-weight: 700;
   color: #2a2a2a;
 }
