@@ -1616,14 +1616,14 @@ Products Page
 }
 
 #products .item .down-content h4 {
-  font-size: 22px;
+  font-size: 15px;
   color: #2a2a2a;
   font-weight: 700;
   margin-bottom: 8px;
 }
 
 #products .item .down-content span {
-  font-size: 18px;
+  font-size: 15px;
   color: #a1a1a1;
   font-weight: 500;
   display: block;
@@ -1734,14 +1734,14 @@ Single Product Page
 }
 
 #product .right-content h4 {
-  font-size: 22px;
+  font-size: 15px;
   color: #2a2a2a;
   font-weight: 700;
   margin-bottom: 0px;
 }
 
 #product .right-content span.price {
-  font-size: 18px;
+  font-size: 15px;
   color: #a1a1a1;
   font-weight: 500;
   display: block;
@@ -1815,7 +1815,7 @@ Single Product Page
 
 .quantity-content .left-content h6 {
   padding-top: 7px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
   color: #aaa;
   position: relative;
