@@ -224,7 +224,6 @@ header
 }
 
 .header-area {
-  border-bottom: 3px dotted #eee;
   box-shadow: none;
   background-color: #fff;
   position: absolute;
