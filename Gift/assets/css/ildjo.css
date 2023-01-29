@@ -361,7 +361,7 @@ header
   opacity: 1;
   display: block;
   background: #f7f7f7;
-  color: #2a2a2a!important;
+  color: #fff!important;
   padding-left: 20px;
   height: 40px;
   line-height: 40px;
@@ -417,7 +417,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #1e1e1e;
+  background-color: #fff;
   display: block;
   position: absolute;
   width: 30px;
@@ -428,7 +428,7 @@ header
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #1e1e1e;
+  background-color: #fff;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -437,7 +437,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #1e1e1e;
+  background-color: #fff;
   display: block;
   position: absolute;
   width: 30px;
@@ -448,7 +448,7 @@ header
 
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #1e1e1e;
+  background-color: #fff;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -489,11 +489,11 @@ header
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #1e1e1e;
+  background-color: #fff;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-  background-color: #1e1e1e;
+  background-color: #fff;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -501,11 +501,11 @@ header
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #1e1e1e;
+  background-color: #fff;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: #1e1e1e;
+  background-color: #fff;
 }
 
 .header-area.header-sticky {
@@ -543,7 +543,7 @@ header
     width: 100%;
   }
   .header-area {
-    background-color: #f7f7f7;
+    background-color: #2a2a2a;
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -589,11 +589,11 @@ header
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #f7f7f7 !important;
-    color: #191a20 !important;
+    background: #2a2a2a !important;
+    color: #fff !important;
   }
   .header-area .main-nav .nav li a:hover {
-    background: #eee !important;
+    background: #2a2a2a !important;
     color: #aaa!important;
   }
   .header-area .main-nav .nav li.submenu ul {
