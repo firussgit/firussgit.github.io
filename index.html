@@ -11,29 +11,27 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <style>
         body {
-            font-family: Montserrat, sans-serif;
+            font-family: Montserrat;
         }
     </style>
 </head>
 
 <body class="text-center pt-5">
     <header class="mb-5">
-        <nav class="navbar fixed-top navbar-dark bg-dark">
-            <div class="container">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="/">
                     <img src="images/logo_light.png" alt="ILDJO" width="36" height="32">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerHamburger"
+                    aria-controls="headerHamburger" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse" id="headerHamburger">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="/">Acceuil</a>
-                        <a class="nav-link" href="/">Boutique</a>
-                        <a class="nav-link" href="/">Produit</a>
-                        <a class="nav-link" href="/">A Propos</a>
+                        <a class="nav-link" href="store.html">Boutique</a>
+                        <a class="nav-link" href="about.html">A Propos</a>
                         <a class="nav-link" href="contact.html">Contact</a>
                     </div>
                 </div>
@@ -76,6 +74,57 @@
                         <p class="card-text">Meilleurs vêtements pour Femmes</p>
                     </div>
                 </div>
+            </div>
+        </section>
+        <hr class="mt-5 mb-5">
+        <section>
+            <div class="container">
+                <h5 class="fw-bold">Nos modèles récents</h5>
+                <p class="text-secondary mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div id="carouselExampleAutoplaying" class="carousel slide mb-5" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/custom/blue.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/custom/brown.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/custom/green.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/custom/grena.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/custom/magenta.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-dark w-100">Boutique</button>
+            </div>
+        </section>
+        <hr class="mt-5 mb-5">
+        <section>
+            <div class="container">
+                <h5 class="fw-bold">Edition limitée</h5>
+                <p class="text-secondary mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div id="carouselExampleAutoplaying" class="carousel slide mb-5" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/custom/custom_1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/custom/custom_2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/custom/custom_3.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/custom/custom_4.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-dark w-100">Explorer!</button>
             </div>
         </section>
         <hr class="mt-5 mb-5">
