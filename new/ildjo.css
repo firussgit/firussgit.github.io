@@ -61,10 +61,7 @@ main {
     margin-bottom: 10%;
 }
 
-.div_2,
-.div_3,
-.div_5,
-.div_7 {
+.div_2 {
     height: 100vh;
     text-align: center;
     display: flex;
@@ -78,7 +75,7 @@ main {
     margin-bottom: 5%;
 }
 
-.div_4 {
+.div_3 {
     background-image: url('images/04.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -90,7 +87,7 @@ main {
     align-items: center;
 }
 
-.div_6 {
+.div_4 {
     background-image: url('images/05.jpg');
     background-repeat: no-repeat;
     height: 100vh;
