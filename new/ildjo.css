@@ -1,0 +1,107 @@
+body {
+    font-family: Montserrat;
+}
+
+.accordion-button::after {
+    filter: brightness(0%) invert(100%);
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0%) invert(100%);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.accordion-button::after {
+    filter: brightness(0%) invert(100%);
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0%) invert(100%);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, .125);
+}
+
+.snap_parent {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.snap_child {
+    scroll-snap-align: start;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.div_1 {
+    background-image: url('images/01.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1_1 {
+    width: 55%;
+    margin-bottom: 10%;
+}
+
+.div_2,
+.div_3,
+.div_5,
+.div_7 {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1_2 {
+    width: 65%;
+    margin-bottom: 5%;
+}
+
+.div_4 {
+    background-image: url('images/04.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_6 {
+    background-image: url('images/05.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_sticky {
+    position: sticky;
+    bottom: 0;
+}
