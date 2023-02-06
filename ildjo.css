@@ -89,3 +89,14 @@ main {
     position: sticky;
     bottom: 0;
 }
+
+.animate-on-scroll {
+	opacity: 0;
+	transition: all 0.5s ease-out;
+	transition-delay: 0.5s;
+}
+
+.animate {
+	opacity: 1;
+	transform: translate(0, 0);
+}
