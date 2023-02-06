@@ -49,30 +49,18 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.h1_1 {
-    width: 55%;
-    margin-bottom: 10%;
 }
 
 .div_2 {
     height: 100vh;
-    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.h1_2 {
-    width: 65%;
-    margin-bottom: 5%;
 }
 
 .div_3 {
@@ -80,7 +68,6 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
