@@ -15,3 +15,8 @@ for (let i = 0; i < animation_elements.length; i++) {
 
 	observer.observe(el);
 }
+
+var loader = document.getElementById("loading");
+window.addEventListener("load", function () {
+	loader.style.display = "none";
+})
