@@ -85,22 +85,44 @@ main {
     align-items: center;
 }
 
+.div_5 {
+    background-image: url('images/contact.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_6 {
+    background-image: url('images/about.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer_sticky {
     position: sticky;
     bottom: 0;
 }
 
 .animate-on-scroll {
-	opacity: 0;
-	transition: all 0.5s ease-out;
-	transition-delay: 0.5s;
+    opacity: 0;
+    transition: all 0.5s ease-out;
+    transition-delay: 0.5s;
 }
 
 .animate {
-	opacity: 1;
+    opacity: 1;
 }
 
-#loading{
+#loading {
     background: url('images/preloader.gif') no-repeat center;
     background-size: 20%;
     height: 100vh;
