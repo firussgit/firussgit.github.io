@@ -107,6 +107,14 @@ main {
     align-items: center;
 }
 
+.div_7 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer_sticky {
     position: sticky;
     bottom: 0;
