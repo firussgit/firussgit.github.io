@@ -2,26 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <title>ILDJO - Boutique</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <style>
-        body {
-            font-family: Montserrat;
-        }
-    </style>
+    <link rel="stylesheet" href="/assets/ildjo.css">
 </head>
 
-<body class="text-center pt-5">
-    <header class="mb-5">
+<body class="text-center">
+    <div id="loading" class="bg-dark"></div>
+    <main class="snap_parent">
         <nav class="navbar navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/">
-                    <img src="images/logo_light.png" alt="ILDJO" width="36" height="32">
+                <a class="navbar-brand" href="/fr/">
+                    <img src="/assets/images/logo_light.png" alt="ILDJO" width="36" height="32">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerHamburger"
                     aria-controls="headerHamburger" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,131 +26,165 @@
                 </button>
                 <div class="collapse navbar-collapse" id="headerHamburger">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="/">Acceuil</a>
-                        <a class="nav-link active" aria-current="page" href="store.html">Boutique</a>
-                        <a class="nav-link" href="about.html">A Propos</a>
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="/fr/">Acceuil</a>
+                        <a class="nav-link active" aria-current="page" href="/fr/store/">Boutique</a>
+                        <a class="nav-link" href="/fr/about/">A Propos</a>
+                        <a class="nav-link" href="/fr/contact/">Contact</a>
                     </div>
                 </div>
             </div>
         </nav>
-    </header>
-
-    <main>
-        <section class="card text-light">
-            <img src="images/boutique.jpg" alt="Boutique">
-            <div class="card-img-overlay d-flex align-items-center">
-                <div class="container">
-                    <h5 class="card-title fst-italic fw-bold mb-4">Boutique</h5>
-                </div>
-            </div>
-        </section>
-        <hr class="mt-5 mb-5">
-        <section class="container">
-            <div class="container mb-5">
-                <h5 class="fw-bold">Catégorie:</h5>
-                <div class="dropdown-center">
-                    <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Personnalisé
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="store.html">Tout</a></li>
-                        <li><a class="dropdown-item" href="#">Personnalisé</a></li>
-                    </ul>
-                </div>
-            </div>
+        <section class="div_7 snap_child animate-on-scroll px-3">
+            <h1 class="mb-5">BOUTIQUE</h1>
             <div class="row">
-                <div class="col-6 mb-5">
+                <div class="col-6 mb-3">
                     <div class="card border-0">
-                        <img src="images/custom/custom_1.png" class="card-img-top" alt="...">
+                        <img src="/assets/images/custom/blue.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h6 class="card-title">Hoodie</h6>
-                            <p class="card-text text-secondary">3500 DA</p>
+                            <p class="card-text text-secondary">3000 DA</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 mb-5">
+                <div class="col-6 mb-3">
                     <div class="card border-0">
-                        <img src="images/custom/custom_2.png" class="card-img-top" alt="...">
+                        <img src="/assets/images/custom/brown.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h6 class="card-title">Hoodie</h6>
-                            <p class="card-text text-secondary">3500 DA</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="card border-0">
-                        <img src="images/custom/custom_3.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h6 class="card-title">Hoodie</h6>
-                            <p class="card-text text-secondary">3500 DA</p>
+                            <p class="card-text text-secondary">3000 DA</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="card border-0">
-                        <img src="images/custom/custom_4.png" class="card-img-top" alt="...">
+                        <img src="/assets/images/custom/green.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h6 class="card-title">Hoodie</h6>
-                            <p class="card-text text-secondary">3500 DA</p>
+                            <p class="card-text text-secondary">3000 DA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card border-0">
+                        <img src="/assets/images/custom/grena.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Hoodie</h6>
+                            <p class="card-text text-secondary">3000 DA</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <hr class="mt-5 mb-5">
-        <section class="container mb-5">
-            <h5 class="fw-bold">Obtenez 10% de réduction en vous inscrivant à notre Newsletter</h5>
-            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            <form>
-                <div class="mb-3">
-                    <input type="text" placeholder="Nom" class="form-control border-dark" id="exampleInputName1"
-                        required>
+        <section class="div_7 snap_child animate-on-scroll px-3">
+            <div class="row mt-3">
+                <div class="col-6 mb-3">
+                    <div class="card border-0">
+                        <img src="/assets/images/custom/blue.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Hoodie</h6>
+                            <p class="card-text text-secondary">3000 DA</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <input type="email" placeholder="Adresse Email" class="form-control border-dark"
-                        id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                <div class="col-6 mb-3">
+                    <div class="card border-0">
+                        <img src="/assets/images/custom/brown.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Hoodie</h6>
+                            <p class="card-text text-secondary">3000 DA</p>
+                        </div>
+                    </div>
                 </div>
-                <button type="submit" class="btn btn-dark w-100">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                        class="bi bi-send" viewBox="0 0 16 16">
-                        <path
-                            d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
-                    </svg>
-                </button>
-            </form>
+                <div class="col-6">
+                    <div class="card border-0">
+                        <img src="/assets/images/custom/green.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Hoodie</h6>
+                            <p class="card-text text-secondary">3000 DA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card border-0">
+                        <img src="/assets/images/custom/grena.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Hoodie</h6>
+                            <p class="card-text text-secondary">3000 DA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer class="text-bg-dark">
+    <footer class="footer_sticky text-bg-dark">
         <div class="container mb-5">
-            <img src="images/logo_light.png" alt="ILDJO" class="mt-5 mb-3 w-25">
-            <p>ILDJO
+            <img src="/assets/images/logo_light.png" alt="ILDJO" class="mt-5 mb-5 w-25">
+            <p>
+                ILDJO
                 <br>
                 Annaba - Algérie
             </p>
             <p>info@ildjo.com</p>
             <p>0500000000</p>
         </div>
-        <div>
-            <div class="container mb-5">
-                <h5>Shopping et Catégories</h5>
-                <p>Shopping pour Hommes</p>
-                <p>Shopping pour Femmes</p>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button bg-dark text-light collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                        aria-controls="collapseOne">
+                        Shopping et Catégories
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body bg-dark">
+                        <div class="row">
+                            <a href="/fr/store/">Boutique</a>
+                            <a href="">En Vedette</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="container mb-5">
-                <h5>Liens Utiles</h5>
-                <p>Acceuil</p>
-                <p>A Propos</p>
-                <p>Contactez-Nous</p>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button bg-dark text-light collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                        aria-controls="collapseTwo">
+                        Liens Utiles
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body bg-dark">
+                        <div class="row">
+                            <a href="/fr/">Acceuil</a>
+                            <a href="/fr/about/">À propos</a>
+                            <a href="/fr/contact/">Contactez-Nous</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="container">
-                <h5>Aide et Informations</h5>
-                <p>Aide</p>
-                <p>FAQs</p>
-                <p>Expédition</p>
-                <p>ID de Suivi</p>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button bg-dark text-light collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                        aria-controls="collapseThree">
+                        Aide et Informations
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body bg-dark">
+                        <div class="row">
+                            <a href="">Aide</a>
+                            <a href="">FAQs</a>
+                            <a href="">Expédition</a>
+                            <a href="">ID de Suivi</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <hr class="mt-5 mb-5">
@@ -192,6 +223,8 @@
             </a>
         </div>
     </footer>
+
+    <script src="/assets/ildjo.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
