@@ -17,11 +17,29 @@
     <main class="snap_parent">
         <nav class="navbar navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
+                <div class="dropdown">
+                    <button class="btn btn-outline-secondary text-light dropdown-toggle" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        FR
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item text-bg-secondary" href="#" aria-current="true">FR</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">EN</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">AR</a></li>
+                    </ul>
+                </div>
                 <a class="navbar-brand" href="/fr/">
                     <img src="/assets/images/logo_light.png" alt="ILDJO" width="36" height="32">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerHamburger"
-                    aria-controls="headerHamburger" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#headerHamburger" aria-controls="headerHamburger" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="headerHamburger">
