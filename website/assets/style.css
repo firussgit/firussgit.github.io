@@ -1,0 +1,22 @@
+* {
+    font-family: monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+img {
+    max-width: 350px;
+    width: 50%;
+}
+
+div img {
+    max-width: 350px;
+    width: 80%;
+}
+
+.store {
+    display: flex;
+    justify-content: center;
+}
