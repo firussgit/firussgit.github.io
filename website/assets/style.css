@@ -5,3 +5,37 @@
     padding: 0;
     text-align: center;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer,
+header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: gray;
+    padding: 1em 0;
+}
+
+.home img {
+    max-width: 25em;
+    width: 50%;
+}
+
+.store {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.store img {
+    max-width: 25em;
+    width: 80%;
+}
+
+.form {
+    display: grid;
+    justify-content: center;
+}

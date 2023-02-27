@@ -9,12 +9,16 @@
     <link rel="stylesheet" href="/website/assets/style.css">
 </head>
 
-<body>
+<body class="home">
     <header>
-        <a href="/website/">Home</a>
-        <a href="/website/store/">Store</a>
-        <a href="/website/about/">About</a>
-        <a href="/website/contact/">Contact</a>
+        <div>Language</div>
+        <div>Icon</div>
+        <div>
+            <a href="/website/">Home</a>
+            <a href="/website/store/">Store</a>
+            <a href="/website/about/">About</a>
+            <a href="/website/contact/">Contact</a>
+        </div>
     </header>
     <section>
         <h2>TURN YOUR IMAGINATION INTO REALITY</h2>
@@ -81,8 +85,42 @@
             voluptas quaerat, aut, aperiam necessitatibus, laudantium rem voluptates iusto possimus incidunt.
             Excepturi
             voluptatum ut eaque libero iusto?</p>
-        <iframe src="/website/form.html" frameborder="0"></iframe>
+        <form class="form" action="https://formsubmit.co/firussmail@gmail.com" method="POST"
+            enctype="multipart/form-data">
+            <input name="Name" type="text" placeholder="Name">
+            <input name="Email" type="text" placeholder="Email address">
+            <input name="Age" type="number" placeholder="Age" min="1" max="90">
+            <select name="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Undefined">Undefined</option>
+            </select>
+            <div>
+                <input name="Radio" type="radio" value="Test 1">
+                <label>Test 1</label>
+            </div>
+            <div>
+                <input name="Radio" type="radio" value="Test 2">
+                <label>Test 2</label>
+            </div>
+            <input type="file" name="attachment" accept="image/png, image/jpeg">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://firussgit.github.io/website/thanks/">
+            <input type="hidden" name="_subject" value="New subscription!">
+            <input type="hidden" name="_captcha" value="false">
+            <button type="submit">Submit</button>
+        </form>
     </section>
+    <footer>
+        <div>Copyright</div>
+        <div>Icon</div>
+        <div>
+            <a href="/website/">Home</a>
+            <a href="/website/store/">Store</a>
+            <a href="/website/about/">About</a>
+            <a href="/website/contact/">Contact</a>
+        </div>
+    </footer>
 </body>
 
 </html>
