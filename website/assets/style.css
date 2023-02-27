@@ -16,11 +16,16 @@ header {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: gray;
-    padding: 1em 0;
+    padding: 20px 0;
+}
+
+form {
+    display: grid;
+    justify-content: center;
 }
 
 .home img {
-    max-width: 25em;
+    max-width: 300px;
     width: 50%;
 }
 
@@ -31,11 +36,22 @@ header {
 }
 
 .store img {
-    max-width: 25em;
+    max-width: 300px;
     width: 80%;
 }
 
-form {
-    display: grid;
-    justify-content: center;
+button {
+    background-color: white;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+}
+
+button:active {
+    background-color: lightgray;
+    color: black;
 }

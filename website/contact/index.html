@@ -28,10 +28,14 @@
         <h2>SAY HELLO. DO NOT BE SHY!</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem numquam facere quae soluta repellendus
             laboriosam animi dolor, pariatur consectetur.</p>
-        <form>
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Email address">
-            <textarea placeholder="Message"></textarea>
+        <form action="https://formsubmit.co/firussmail@gmail.com" method="POST">
+            <input name="Name" type="text" placeholder="Name">
+            <input name="Email" type="text" placeholder="Email address">
+            <textarea name="Message" placeholder="Message"></textarea>
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://firussgit.github.io/website/thanks/">
+            <input type="hidden" name="_subject" value="Someone said hello!">
+            <input type="hidden" name="_captcha" value="false">
             <button type="submit">Submit</button>
         </form>
     </section>
@@ -54,9 +58,22 @@
             voluptas quaerat, aut, aperiam necessitatibus, laudantium rem voluptates iusto possimus incidunt.
             Excepturi
             voluptatum ut eaque libero iusto?</p>
-        <form>
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Email address">
+        <form action="https://formsubmit.co/firussmail@gmail.com" method="POST">
+            <input name="Name" type="text" placeholder="Name">
+            <input name="Email" type="text" placeholder="Email address">
+            <input name="Age" type="number" placeholder="Age" min="10" max="90">
+            <select name="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <select name="Language">
+                <option value="EN">EN</option>
+                <option value="FR">FR</option>
+            </select>
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://firussgit.github.io/website/thanks/">
+            <input type="hidden" name="_subject" value="New subscription!">
+            <input type="hidden" name="_captcha" value="false">
             <button type="submit">Submit</button>
         </form>
     </section>
