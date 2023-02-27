@@ -24,20 +24,9 @@ form {
     justify-content: center;
 }
 
-.home img {
+img {
     max-width: 300px;
     width: 50%;
-}
-
-.store {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
-}
-
-.store img {
-    max-width: 300px;
-    width: 80%;
 }
 
 button {
@@ -54,4 +43,55 @@ button:hover {
 button:active {
     background-color: lightgray;
     color: black;
+}
+
+table {
+    display: inline;
+    border-collapse: collapse;
+}
+
+.store {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.store img {
+    width: 80%;
+}
+
+.blue {
+    background-color: blue;
+    height: 30px;
+    width: 50px;
+}
+
+.brown {
+    background-color: brown;
+    height: 30px;
+    width: 50px;
+}
+
+.green {
+    background-color: green;
+    height: 30px;
+    width: 50px;
+}
+
+.dark-red {
+    background-color: darkred;
+    height: 30px;
+    width: 50px;
+}
+
+.magenta {
+    background-color: magenta;
+    height: 30px;
+    width: 50px;
+}
+
+.size * {
+    height: 30px;
+    width: 50px;
+    border: 1px solid gray;
 }
