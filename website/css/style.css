@@ -97,10 +97,12 @@ table {
 }
 
 .placeholder {
+    display: flex;
+    justify-content: center;
+    position: relative;
     height: 200px;
 }
 
-.placeholder img {
+.abs {
     position: absolute;
-    left: 25vw;
 }
