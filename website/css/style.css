@@ -105,3 +105,12 @@ table {
 .abs {
     position: absolute;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container>div {
+    margin: 0 5%;
+}
