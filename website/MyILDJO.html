@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>MyILDJO</title>
+    <link rel="icon" type="image/x-icon" href="/website/images/favicon.ico">
+    <link rel="stylesheet" href="/website/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div>Language</div>
+        <div>Icon</div>
+        <div>
+            <a href="/website/">Home</a>
+            <a href="/website/store">Store</a>
+            <a href="/website/about">About</a>
+            <a href="/website/contact">Contact</a>
+        </div>
+    </header>
+    <section class="customize">
+        <div class="placeholder">
+            <img id="main" src="/website/images/body/01.png" alt="">
+            <img id="cap" src="/website/images/cap/01.png" alt="">
+            <img id="cotte" src="/website/images/sleeve/01.png" alt="">
+        </div>
+        <div>
+            <h3>Main</h3>
+            <input onclick="main('blue')" type="radio" name="main" id="main_1" checked>
+            <label for="main_1">Blue</label>
+            <input onclick="main('red')" type="radio" name="main" id="main_2">
+            <label for="main_2">Red</label>
+            <input onclick="main('green')" type="radio" name="main" id="main_3">
+            <label for="main_3">Green</label>
+        </div>
+        <div>
+            <h3>Cap</h3>
+            <input onclick="cap('blue')" type="radio" name="cap" id="cap_1" checked>
+            <label for="cap_1">Blue</label>
+            <input onclick="cap('red')" type="radio" name="cap" id="cap_2">
+            <label for="cap_2">Red</label>
+            <input onclick="cap('green')" type="radio" name="cap" id="cap_3">
+            <label for="cap_3">Green</label>
+        </div>
+        <div>
+            <h3>Cotte</h3>
+            <input onclick="cotte('blue')" type="radio" name="cotte" id="cotte_1" checked>
+            <label for="cotte_1">Blue</label>
+            <input onclick="cotte('red')" type="radio" name="cotte" id="cotte_2">
+            <label for="cotte_2">Red</label>
+            <input onclick="cotte('green')" type="radio" name="cotte" id="cotte_3">
+            <label for="cotte_3">Green</label>
+        </div>
+        <button>Confirm the customization!</button>
+    </section>
+    <footer>
+        <div>Copyright</div>
+        <div>Icon</div>
+        <div>
+            <a href="/website/">Home</a>
+            <a href="/website/store">Store</a>
+            <a href="/website/about">About</a>
+            <a href="/website/contact">Contact</a>
+        </div>
+    </footer>
+    <script src="/website/js/customize.js"></script>
+</body>
+
+</html>

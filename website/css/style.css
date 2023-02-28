@@ -95,3 +95,12 @@ table {
     width: 50px;
     border: 1px solid gray;
 }
+
+.customize img {
+    position: absolute;
+    left: 25vw;
+}
+
+.placeholder {
+    height: 200px;
+}
