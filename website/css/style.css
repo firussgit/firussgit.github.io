@@ -96,11 +96,11 @@ table {
     border: 1px solid gray;
 }
 
-.customize img {
-    position: absolute;
-    left: 25vw;
-}
-
 .placeholder {
     height: 200px;
+}
+
+.placeholder img {
+    position: absolute;
+    left: 25vw;
 }
