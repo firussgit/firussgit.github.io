@@ -100,7 +100,6 @@ table {
     display: flex;
     justify-content: center;
     position: relative;
-    height: 200px;
 }
 
 .abs {
