@@ -21,18 +21,35 @@
         </div>
     </header>
     <section>
+        <h2>MyILDJO</h2>
+    </section>
+    <section>
         <div class="placeholder">
-            <img id="main" src="/website/images/body/01.png" alt="">
-            <img class="abs" id="cap" src="/website/images/cap/01.png" alt="">
-            <img class="abs" id="cotte" src="/website/images/sleeve/01.png" alt="">
+            <img id="main" src="/website/images/t-shirt/v/shirt.png" alt="">
+            <img class="abs" id="manche" src="" alt="">
+            <img class="abs" id="cotte" src="" alt="">
+            <img class="abs" id="jib" src="" alt="">
         </div>
         <div class="container">
             <div>
-                <h3>Body</h3>
+                <h3>Colle</h3>
                 <div>
                     <div>
-                        <input onclick="main('blue')" type="radio" name="main" id="main_1" checked>
-                        <label for="main_1">Blue</label>
+                        <input onclick="v('v')" type="radio" name="colle" id="colle_1" checked>
+                        <label for="colle_1">V</label>
+                    </div>
+                    <div>
+                        <input onclick="nrml('nrml')" type="radio" name="colle" id="colle_2">
+                        <label for="colle_2">Normal</label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3>Main</h3>
+                <div>
+                    <div>
+                        <input onclick="main('cyan')" type="radio" name="main" id="main_1">
+                        <label for="main_1">Cyan</label>
                     </div>
                     <div>
                         <input onclick="main('red')" type="radio" name="main" id="main_2">
@@ -45,28 +62,28 @@
                 </div>
             </div>
             <div>
-                <h3>Cap</h3>
+                <h3>Manches</h3>
                 <div>
                     <div>
-                        <input onclick="cap('blue')" type="radio" name="cap" id="cap_1" checked>
-                        <label for="cap_1">Blue</label>
+                        <input onclick="manche('cyan')" type="radio" name="manche" id="manche_1">
+                        <label for="manche_1">Cyan</label>
                     </div>
                     <div>
-                        <input onclick="cap('red')" type="radio" name="cap" id="cap_2">
-                        <label for="cap_2">Red</label>
+                        <input onclick="manche('red')" type="radio" name="manche" id="manche_2">
+                        <label for="manche_2">Red</label>
                     </div>
                     <div>
-                        <input onclick="cap('green')" type="radio" name="cap" id="cap_3">
-                        <label for="cap_3">Green</label>
+                        <input onclick="manche('green')" type="radio" name="manche" id="manche_3">
+                        <label for="manche_3">Green</label>
                     </div>
                 </div>
             </div>
             <div>
-                <h3>Cotte</h3>
+                <h3>Cottes</h3>
                 <div>
                     <div>
-                        <input onclick="cotte('blue')" type="radio" name="cotte" id="cotte_1" checked>
-                        <label for="cotte_1">Blue</label>
+                        <input onclick="cotte('cyan')" type="radio" name="cotte" id="cotte_1">
+                        <label for="cotte_1">Cyan</label>
                     </div>
                     <div>
                         <input onclick="cotte('red')" type="radio" name="cotte" id="cotte_2">
@@ -75,6 +92,27 @@
                     <div>
                         <input onclick="cotte('green')" type="radio" name="cotte" id="cotte_3">
                         <label for="cotte_3">Green</label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3>Jib</h3>
+                <div>
+                    <div>
+                        <input onclick="none()" type="radio" name="jib" id="jib_0" checked>
+                        <label for="jib_0">None</label>
+                    </div>
+                    <div>
+                        <input onclick="jib('cyan')" type="radio" name="jib" id="jib_1">
+                        <label for="jib_1">Cyan</label>
+                    </div>
+                    <div>
+                        <input onclick="jib('red')" type="radio" name="jib" id="jib_2">
+                        <label for="jib_2">Red</label>
+                    </div>
+                    <div>
+                        <input onclick="jib('green')" type="radio" name="jib" id="jib_3">
+                        <label for="jib_3">Green</label>
                     </div>
                 </div>
             </div>

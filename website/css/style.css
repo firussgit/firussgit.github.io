@@ -1,9 +1,9 @@
 * {
-    font-family: monospace;
     box-sizing: border-box;
+    font-family: monospace;
+    text-align: center;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 a {
@@ -13,15 +13,10 @@ a {
 
 footer,
 header {
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    justify-content: space-around;
     background-color: gray;
     padding: 20px 0;
-}
-
-form {
-    display: grid;
-    justify-content: center;
 }
 
 img {
@@ -31,8 +26,8 @@ img {
 
 button {
     background-color: white;
-    padding: 5px 10px;
     border: 1px solid black;
+    padding: 5px 10px;
 }
 
 button:hover {
@@ -45,9 +40,9 @@ button:active {
     color: black;
 }
 
-table {
-    display: inline;
-    border-collapse: collapse;
+form {
+    display: grid;
+    justify-content: center;
 }
 
 .store {
@@ -60,40 +55,33 @@ table {
     width: 80%;
 }
 
+.blue,
+.brown,
+.green,
+.dark-red,
+.magenta {
+    width: 50px;
+    height: 30px;
+}
+
 .blue {
     background-color: blue;
-    height: 30px;
-    width: 50px;
 }
 
 .brown {
     background-color: brown;
-    height: 30px;
-    width: 50px;
 }
 
 .green {
     background-color: green;
-    height: 30px;
-    width: 50px;
 }
 
 .dark-red {
     background-color: darkred;
-    height: 30px;
-    width: 50px;
 }
 
 .magenta {
     background-color: magenta;
-    height: 30px;
-    width: 50px;
-}
-
-.size * {
-    height: 30px;
-    width: 50px;
-    border: 1px solid gray;
 }
 
 .placeholder {
@@ -108,9 +96,17 @@ table {
 
 .container {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .container>div {
     margin: 0 5%;
+}
+
+.btn-grp * {
+    border-color: gray;
+    border-radius: 15px;
+    width: 50px;
+    height: 30px;
 }

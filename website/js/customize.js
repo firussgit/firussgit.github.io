@@ -1,48 +1,98 @@
+let colle_type
 let main_part
+let manche_part
 let cotte_part
-let cap_part
+let jib_part
 
-function main(x) {
-    main_part = x
+function none() {
+    document.getElementById('jib').src = ''
+}
+
+function v(f) {
+    document.getElementById('cotte').src = ''
+    document.getElementById('main').src = '/website/images/t-shirt/v/shirt.png'
+    colle_type = f
+}
+
+function nrml(e) {
+    document.getElementById('cotte').src = ''
+    document.getElementById('main').src = '/website/images/t-shirt/nrml/shirt.png'
+    colle_type = e
+}
+
+function main(a) {
+    main_part = a
     submit()
 }
 
-function cap(z) {
-    cap_part = z
+function manche(b) {
+    manche_part = b
     submit()
 }
 
-function cotte(y) {
-    cotte_part = y
+function cotte(c) {
+    cotte_part = c
+    submit()
+}
+
+function jib(d) {
+    jib_part = d
     submit()
 }
 
 function submit() {
-    if (main_part == "blue") {
-        document.getElementById('main').src = '/website/images/body/01.png'
+    if (main_part == "cyan") {
+        document.getElementById('main').src = '/website/images/t-shirt/v/cyan/shirt.png'
     }
-    if (cap_part == "blue") {
-        document.getElementById('cap').src = '/website/images/cap/01.png'
+    if (main_part == "cyan" && colle_type == "nrml") {
+        document.getElementById('main').src = '/website/images/t-shirt/nrml/cyan/shirt.png'
     }
-    if (cotte_part == "blue") {
-        document.getElementById('cotte').src = '/website/images/sleeve/01.png'
+    if (manche_part == "cyan") {
+        document.getElementById('manche').src = '/website/images/t-shirt/v/cyan/manches.png'
+    }
+    if (jib_part == "cyan") {
+        document.getElementById('jib').src = '/website/images/t-shirt/v/cyan/jib.png'
+    }
+    if (cotte_part == "cyan") {
+        document.getElementById('cotte').src = '/website/images/t-shirt/v/cyan/cottes.png'
+    }
+    if (cotte_part == "cyan" && colle_type == "nrml") {
+        document.getElementById('cotte').src = '/website/images/t-shirt/nrml/cyan/cottes.png'
     }
     if (main_part == "red") {
-        document.getElementById('main').src = '/website/images/body/02.png'
+        document.getElementById('main').src = '/website/images/t-shirt/v/red/shirt.png'
     }
-    if (cap_part == "red") {
-        document.getElementById('cap').src = '/website/images/cap/02.png'
+    if (main_part == "red" && colle_type == "nrml") {
+        document.getElementById('main').src = '/website/images/t-shirt/nrml/red/shirt.png'
+    }
+    if (manche_part == "red") {
+        document.getElementById('manche').src = '/website/images/t-shirt/v/red/manches.png'
+    }
+    if (jib_part == "red") {
+        document.getElementById('jib').src = '/website/images/t-shirt/v/red/jib.png'
     }
     if (cotte_part == "red") {
-        document.getElementById('cotte').src = '/website/images/sleeve/02.png'
+        document.getElementById('cotte').src = '/website/images/t-shirt/v/red/cottes.png'
+    }
+    if (cotte_part == "red" && colle_type == "nrml") {
+        document.getElementById('cotte').src = '/website/images/t-shirt/nrml/red/cottes.png'
     }
     if (main_part == "green") {
-        document.getElementById('main').src = '/website/images/body/03.png'
+        document.getElementById('main').src = '/website/images/t-shirt/v/green/shirt.png'
     }
-    if (cap_part == "green") {
-        document.getElementById('cap').src = '/website/images/cap/03.png'
+    if (main_part == "green" && colle_type == "nrml") {
+        document.getElementById('main').src = '/website/images/t-shirt/nrml/green/shirt.png'
+    }
+    if (manche_part == "green") {
+        document.getElementById('manche').src = '/website/images/t-shirt/v/green/manches.png'
+    }
+    if (jib_part == "green") {
+        document.getElementById('jib').src = '/website/images/t-shirt/v/green/jib.png'
     }
     if (cotte_part == "green") {
-        document.getElementById('cotte').src = '/website/images/sleeve/03.png'
+        document.getElementById('cotte').src = '/website/images/t-shirt/v/green/cottes.png'
+    }
+    if (cotte_part == "green" && colle_type == "nrml") {
+        document.getElementById('cotte').src = '/website/images/t-shirt/nrml/green/cottes.png'
     }
 }
