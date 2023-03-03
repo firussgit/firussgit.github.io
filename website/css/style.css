@@ -101,8 +101,8 @@ form {
 }
 
 .container>div {
-    margin: 0 5%;
-    margin-bottom: 5%;
+    margin: 0 18px;
+    margin-bottom: 15px;
 }
 
 .btn-grp * {
@@ -119,14 +119,13 @@ form {
     justify-content: center;
 }
 
-.myildjo label {
-    width: 80vw;
+.myildjo form {
+    width: 50px;
     margin: auto;
 }
 
 .myildjo label,
 h2,
-.placeholder,
-.container {
-    margin-bottom: 5%;
+.placeholder {
+    margin-bottom: 15px;
 }
