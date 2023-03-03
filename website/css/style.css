@@ -124,9 +124,9 @@ form {
     margin: auto;
 }
 
+.myildjo h2,
 .myildjo label,
-h2,
-.placeholder {
+.myildjo .placeholder {
     margin-bottom: 15px;
 }
 
