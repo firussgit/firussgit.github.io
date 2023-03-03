@@ -129,3 +129,15 @@ h2,
 .placeholder {
     margin-bottom: 15px;
 }
+
+.thanks {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks p {
+    margin-bottom: 15px;
+}
