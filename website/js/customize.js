@@ -20,6 +20,18 @@ function nrml(e) {
     colle_type = e
 }
 
+function art() {
+    document.getElementById('print').src = '/website/images/t-shirt/print/art.png'
+}
+
+function nature() {
+    document.getElementById('print').src = '/website/images/t-shirt/print/nature.png'
+}
+
+function anime() {
+    document.getElementById('print').src = '/website/images/t-shirt/print/anime.png'
+}
+
 function main(a) {
     main_part = a
     submit()
