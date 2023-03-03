@@ -151,3 +151,7 @@ form {
 .thanks p {
     width: 80%;
 }
+
+.thanks button {
+    margin-bottom: 0;
+}
