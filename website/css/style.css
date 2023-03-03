@@ -102,6 +102,7 @@ form {
 
 .container>div {
     margin: 0 5%;
+    margin-bottom: 5%;
 }
 
 .btn-grp * {
@@ -109,4 +110,23 @@ form {
     border-radius: 15px;
     width: 50px;
     height: 30px;
+}
+
+.myildjo {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.myildjo p {
+    width: 80vw;
+    margin: auto;
+}
+
+.myildjo p,
+h2,
+.placeholder,
+.container {
+    margin-bottom: 5%;
 }

@@ -9,17 +9,7 @@
     <link rel="stylesheet" href="/website/css/style.css">
 </head>
 
-<body>
-    <header>
-        <div>Language</div>
-        <div>Icon</div>
-        <div>
-            <a href="/website/">Home</a>
-            <a href="/website/store">Store</a>
-            <a href="/website/about">About</a>
-            <a href="/website/contact">Contact</a>
-        </div>
-    </header>
+<body class="myildjo">
     <section>
         <h2>MyILDJO</h2>
     </section>
@@ -46,7 +36,7 @@
                 </div>
             </div>
             <div>
-                <h3>Main</h3>
+                <h3>Body</h3>
                 <div>
                     <div>
                         <input onclick="main('cyan')" type="radio" name="main" id="main_1">
@@ -139,7 +129,10 @@
                 </div>
             </div>
         </div>
+        <p>Please enter your name and email address so we can contact you</p>
         <form action="https://formsubmit.co/firussmail@gmail.com" method="POST">
+            <input name="Name" type="text" placeholder="Name">
+            <input name="Email" type="email" placeholder="Email address">
             <input id="one" name="Colle" type="hidden" value="V">
             <input id="two" name="Main" type="hidden" value="">
             <input id="three" name="Manches" type="hidden" value="">
@@ -153,16 +146,6 @@
             <button type="submit">Confirm the customization!</button>
         </form>
     </section>
-    <footer>
-        <div>Copyright</div>
-        <div>Icon</div>
-        <div>
-            <a href="/website/">Home</a>
-            <a href="/website/store">Store</a>
-            <a href="/website/about">About</a>
-            <a href="/website/contact">Contact</a>
-        </div>
-    </footer>
     <script src="/website/js/customize.js"></script>
 </body>
 
