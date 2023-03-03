@@ -121,15 +121,19 @@
                 <h3>Print</h3>
                 <div>
                     <div>
-                        <input onclick="art()" type="radio" name="print" id="print_1">
+                        <input onclick="print('none')" type="radio" name="print" id="print_0" checked>
+                        <label for="print_0">None</label>
+                    </div>
+                    <div>
+                        <input onclick="print('art')" type="radio" name="print" id="print_1">
                         <label for="print_1">Art</label>
                     </div>
                     <div>
-                        <input onclick="nature()" type="radio" name="print" id="print_2">
+                        <input onclick="print('nature')" type="radio" name="print" id="print_2">
                         <label for="print_2">Nature</label>
                     </div>
                     <div>
-                        <input onclick="anime()" type="radio" name="print" id="print_3">
+                        <input onclick="print('anime')" type="radio" name="print" id="print_3">
                         <label for="print_3">Anime</label>
                     </div>
                 </div>

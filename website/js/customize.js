@@ -3,52 +3,46 @@ let main_part
 let manche_part
 let cotte_part
 let jib_part
+let print_part
 
 function none() {
     document.getElementById('jib').src = ''
 }
 
-function v(f) {
+function v(a) {
     document.getElementById('cotte').src = ''
     document.getElementById('main').src = '/website/images/t-shirt/v/shirt.png'
-    colle_type = f
+    colle_type = a
 }
 
-function nrml(e) {
+function nrml(b) {
     document.getElementById('cotte').src = ''
     document.getElementById('main').src = '/website/images/t-shirt/nrml/shirt.png'
-    colle_type = e
+    colle_type = b
 }
 
-function art() {
-    document.getElementById('print').src = '/website/images/t-shirt/print/art.png'
-}
-
-function nature() {
-    document.getElementById('print').src = '/website/images/t-shirt/print/nature.png'
-}
-
-function anime() {
-    document.getElementById('print').src = '/website/images/t-shirt/print/anime.png'
-}
-
-function main(a) {
-    main_part = a
+function print(c) {
+    print_part = c
     submit()
 }
 
-function manche(b) {
-    manche_part = b
+function main(d) {
+    main_part = d
     submit()
 }
 
-function cotte(c) {
-    cotte_part = c
+function manche(e) {
+    manche_part = e
     submit()
 }
 
-function jib(d) {
-    jib_part = d
+function cotte(f) {
+    cotte_part = f
+    submit()
+}
+
+function jib(g) {
+    jib_part = g
     submit()
 }
 
@@ -106,5 +100,17 @@ function submit() {
     }
     if (cotte_part == "green" && colle_type == "nrml") {
         document.getElementById('cotte').src = '/website/images/t-shirt/nrml/green/cottes.png'
+    }
+    if (print_part == "none") {
+        document.getElementById('print').src = ''
+    }
+    if (print_part == "art") {
+        document.getElementById('print').src = '/website/images/t-shirt/print/art.png'
+    }
+    if (print_part == "nature") {
+        document.getElementById('print').src = '/website/images/t-shirt/print/nature.png'
+    }
+    if (print_part == "anime") {
+        document.getElementById('print').src = '/website/images/t-shirt/print/anime.png'
     }
 }
