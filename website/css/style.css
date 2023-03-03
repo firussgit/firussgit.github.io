@@ -119,12 +119,12 @@ form {
     justify-content: center;
 }
 
-.myildjo p {
+.myildjo label {
     width: 80vw;
     margin: auto;
 }
 
-.myildjo p,
+.myildjo label,
 h2,
 .placeholder,
 .container {

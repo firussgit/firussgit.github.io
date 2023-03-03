@@ -129,16 +129,18 @@
                 </div>
             </div>
         </div>
-        <p>Please enter your name and email address so we can contact you.</p>
-        <form action="https://formsubmit.co/firussmail@gmail.com" method="POST">
+        <form action="https://formsubmit.co/firussmail@gmail.com" method="POST" enctype="multipart/form-data">
+            <label for="">Please enter your name and email address so we can contact you.</label>
             <input id="one" name="Colle" type="hidden" value="V">
-            <input id="two" name="Main" type="hidden" value="">
+            <input id="two" name="Body" type="hidden" value="">
             <input id="three" name="Manches" type="hidden" value="">
             <input id="four" name="Cottes" type="hidden" value="">
             <input id="five" name="Jib" type="hidden" value="None">
             <input id="six" name="Print" type="hidden" value="">
             <input name="Name" type="text" placeholder="Name" required>
             <input name="Email" type="email" placeholder="Email address" required>
+            <label for="">If you want a custom image printed on your t-shirt attach one below.</label>
+            <input type="file" name="attachment" accept="image/png, image/jpeg">
             <input type="hidden" name="_template" value="table">
             <input type="hidden" name="_next" value="https://firussgit.github.io/website/thanks">
             <input type="hidden" name="_subject" value="New order!">
