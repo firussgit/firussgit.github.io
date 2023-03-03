@@ -6,6 +6,14 @@
     padding: 0;
 }
 
+header,
+h2,
+h3,
+p,
+button {
+    margin-bottom: 15px;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -16,7 +24,7 @@ header {
     display: flex;
     justify-content: space-around;
     background-color: gray;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 img {
@@ -28,16 +36,17 @@ button {
     background-color: white;
     border: 1px solid black;
     padding: 5px 10px;
+    border-radius: 5px;
 }
 
 button:hover {
-    background-color: gray;
-    color: white;
+    background-color: lightgray;
+    color: black;
 }
 
 button:active {
-    background-color: lightgray;
-    color: black;
+    background-color: gray;
+    color: white;
 }
 
 form {
@@ -124,7 +133,6 @@ form {
     margin: auto;
 }
 
-.myildjo h2,
 .myildjo label,
 .myildjo .placeholder {
     margin-bottom: 15px;
@@ -138,7 +146,8 @@ form {
     align-items: center;
 }
 
+
+.thanks h2,
 .thanks p {
-    margin-bottom: 15px;
     width: 80%;
 }
