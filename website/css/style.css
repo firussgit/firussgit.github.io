@@ -33,20 +33,23 @@ img {
 }
 
 button {
-    background-color: white;
-    border: 1px solid black;
-    padding: 5px 10px;
+    background-color: rgb(0, 137, 123);
+    border: 1px solid rgb(0, 137, 123);
+    color: white;
+    padding: 15px 20px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 button:hover {
-    background-color: lightgray;
-    color: black;
+    background-color: rgb(0, 121, 107);
+    border: 1px solid rgb(0, 121, 107);
 }
 
-button:active {
-    background-color: gray;
-    color: white;
+button:focus {
+    background-color: rgb(0, 121, 107);
+    border: 1px solid rgb(0, 121, 107);
+    outline: 2px solid rgb(1, 187, 165);
 }
 
 form {
