@@ -12,17 +12,11 @@
 <body>
     <header>
         <a href="#">ILDJO</a>
-        <ul class="nav-menu">
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">About</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-        </ul>
+        <div class="nav-menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
         <div class="hamburger">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -97,9 +91,9 @@
             Excepturi
             voluptatum ut eaque libero iusto?</p>
         <form action="https://formsubmit.co/firussmail@gmail.com" method="POST">
-            <input name="Name" type="text" placeholder="Name" required>
-            <input name="Email" type="text" placeholder="Email address" required>
-            <input name="Age" type="number" placeholder="Age" min="10" max="90">
+            <input name="Name" type="text" placeholder="Name" autocomplete="off" required>
+            <input name="Email" type="text" placeholder="Email address" autocomplete="off" required>
+            <input name="Age" type="number" placeholder="Age" min="10" max="90" required>
             <select name="Gender">
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>

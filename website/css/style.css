@@ -1,3 +1,5 @@
+/* General */
+
 * {
     box-sizing: border-box;
     font-family: monospace;
@@ -6,7 +8,6 @@
     padding: 0;
 }
 
-header,
 h2,
 h3,
 p,
@@ -19,7 +20,19 @@ select {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 300px;
+    width: 50%;
+}
+
+/* Classless */
 
 header,
 footer {
@@ -31,28 +44,25 @@ footer {
     padding: 15px;
 }
 
-header a,
-footer a {
-    color: white;
+header {
+    position: fixed;
+    width: 100%;
+}
+
+header a {
+    padding: 10px;
+}
+
+header a:hover {
+    background-color: violet;
+    color: black;
 }
 
 section a {
     color: blueviolet;
 }
 
-ul {
-    display: flex;
-}
-
-li {
-    list-style: none;
-    padding: 10px;
-}
-
-img {
-    max-width: 300px;
-    width: 50%;
-}
+/* Buttons */
 
 button {
     background-color: blueviolet;
@@ -73,6 +83,8 @@ button:focus {
     border: 1px solid purple;
     outline: 2px solid violet;
 }
+
+/* Forms */
 
 form {
     display: flex;
@@ -95,7 +107,10 @@ textarea:focus,
 select:focus {
     border: 1px solid purple;
     outline: 2px solid violet;
+    background-color: lightgray;
 }
+
+/* Pages */
 
 .store {
     display: grid;
@@ -187,6 +202,8 @@ select:focus {
     margin-bottom: 0;
 }
 
+/* Navbar */
+
 .hamburger {
     display: none;
     cursor: pointer;
@@ -228,6 +245,10 @@ select:focus {
         width: 100%;
         text-align: center;
         transition: 0.3s;
+    }
+
+    .nav-menu a {
+        display: block;
     }
 
     .nav-menu.active {
