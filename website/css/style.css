@@ -54,11 +54,13 @@ header {
     width: 100%;
 }
 
-header a {
+header a,
+footer a {
     padding: 10px;
 }
 
-header a:hover {
+header a:hover,
+footer a:hover {
     background-color: violet;
     color: black;
 }
