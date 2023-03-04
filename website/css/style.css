@@ -94,6 +94,23 @@ button:focus {
     outline: 2px solid violet;
 }
 
+.outline {
+    background-color: inherit;
+    color: blueviolet;
+}
+
+.outline:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.outline:focus {
+    background-color: blueviolet;
+    border: 1px solid purple;
+    outline: 2px solid violet;
+    color: white;
+}
+
 /* Forms */
 
 form {
