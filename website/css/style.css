@@ -8,6 +8,7 @@
     padding: 0;
 }
 
+.start,
 h2,
 h3,
 p,
@@ -16,6 +17,10 @@ input,
 textarea,
 select {
     margin-bottom: 15px;
+}
+
+.start {
+    height: 65px;
 }
 
 a {
@@ -169,6 +174,11 @@ select:focus {
     position: absolute;
 }
 
+.myildjo label,
+.myildjo .placeholder {
+    margin-bottom: 15px;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -177,11 +187,6 @@ select:focus {
 
 .container>div {
     margin: 0 18px;
-    margin-bottom: 15px;
-}
-
-.myildjo label,
-.myildjo .placeholder {
     margin-bottom: 15px;
 }
 
@@ -236,7 +241,7 @@ select:focus {
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .nav-menu {
+    .nav {
         position: fixed;
         left: -100%;
         top: 59px;
@@ -247,11 +252,11 @@ select:focus {
         transition: 0.3s;
     }
 
-    .nav-menu a {
+    .nav a {
         display: block;
     }
 
-    .nav-menu.active {
+    .nav.active {
         left: 0;
     }
 }
