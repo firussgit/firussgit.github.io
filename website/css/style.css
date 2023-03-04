@@ -145,6 +145,10 @@ select:focus {
     justify-content: center;
 }
 
+.store header {
+    display: block;
+}
+
 .store img {
     width: 80%;
 }
