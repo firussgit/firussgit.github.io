@@ -10,7 +10,10 @@ header,
 h2,
 h3,
 p,
-button {
+button,
+input,
+textarea,
+select {
     margin-bottom: 15px;
 }
 
@@ -19,12 +22,18 @@ a {
     color: black;
 }
 
-footer,
-header {
+header,
+footer {
     display: flex;
     justify-content: space-around;
-    background-color: gray;
+    background-color: rgb(0, 137, 123);
+    color: white;
     padding: 15px 0;
+}
+
+header a,
+footer a {
+    color: white;
 }
 
 img {
@@ -53,8 +62,24 @@ button:focus {
 }
 
 form {
-    display: grid;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+input,
+textarea,
+select {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid rgb(1, 187, 165);
 }
 
 .store {
