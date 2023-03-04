@@ -61,8 +61,7 @@ footer a {
 
 header a:hover,
 footer a:hover {
-    background-color: violet;
-    color: black;
+    color: violet;
 }
 
 footer a {
