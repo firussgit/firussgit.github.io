@@ -65,6 +65,10 @@ footer a:hover {
     color: black;
 }
 
+footer a {
+    display: block;
+}
+
 section a {
     color: blueviolet;
 }
