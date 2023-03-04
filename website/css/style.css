@@ -271,7 +271,6 @@ select:focus {
         position: fixed;
         left: -100%;
         top: 59px;
-        flex-direction: column;
         background-color: purple;
         width: 100%;
         text-align: center;
