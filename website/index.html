@@ -11,12 +11,26 @@
 
 <body>
     <header>
-        <div>Icon</div>
-        <div>
-            <a href="/website/">Home</a>
-            <a href="/website/store">Store</a>
-            <a href="/website/about">About</a>
-            <a href="/website/contact">Contact</a>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="nav-branding">DEV.</a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
         </div>
     </header>
     <section>
@@ -87,8 +101,8 @@
             Excepturi
             voluptatum ut eaque libero iusto?</p>
         <form action="https://formsubmit.co/firussmail@gmail.com" method="POST">
-            <input name="Name" type="text" placeholder="Name">
-            <input name="Email" type="text" placeholder="Email address">
+            <input name="Name" type="text" placeholder="Name" required>
+            <input name="Email" type="text" placeholder="Email address" required>
             <input name="Age" type="number" placeholder="Age" min="10" max="90">
             <select name="Gender">
                 <option value="Male">Male</option>
@@ -115,6 +129,7 @@
             <a href="/website/contact">Contact</a>
         </div>
     </footer>
+    <script src="/website/js/scripts.js"></script>
 </body>
 
 </html>
