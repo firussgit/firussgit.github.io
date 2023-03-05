@@ -128,6 +128,10 @@ button:focus {
     outline: 2px solid violet;
 }
 
+button a {
+    color: inherit;
+}
+
 .outline {
     background-color: inherit;
     color: blueviolet;
