@@ -105,6 +105,14 @@ section a {
     color: blueviolet;
 }
 
+section a:hover {
+    color: violet;
+}
+
+section a:focus {
+    color: purple;
+}
+
 /* Buttons */
 
 button {
