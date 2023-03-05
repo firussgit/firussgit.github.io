@@ -136,7 +136,9 @@ button:focus {
     outline: 2px solid violet;
 }
 
-button a {
+button a,
+button a:hover,
+button a:focus {
     color: inherit;
 }
 
