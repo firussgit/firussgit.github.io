@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 /* General */
 
 * {
     box-sizing: border-box;
-    font-family: monospace;
+    font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -20,7 +22,7 @@ select {
 }
 
 .start {
-    height: 65px;
+    height: 70px;
 }
 
 a {
@@ -295,7 +297,7 @@ select:focus {
     .nav {
         position: fixed;
         left: -100%;
-        top: 59px;
+        top: 70px;
         background-color: purple;
         width: 100%;
         text-align: center;
