@@ -50,8 +50,8 @@ h2 {
 }
 
 section {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 /* Classless */
@@ -385,5 +385,10 @@ select:focus {
         border: none;
         border-bottom: 1px solid gray;
         border-radius: 0;
+    }
+
+    section {
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
