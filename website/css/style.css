@@ -309,6 +309,9 @@ select:focus {
 .hamburger {
     display: none;
     cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 .bar {
@@ -319,6 +322,10 @@ select:focus {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     background-color: white;
+}
+
+.bar-center {
+    width: 20px;
 }
 
 @media(max-width:1024px) {
