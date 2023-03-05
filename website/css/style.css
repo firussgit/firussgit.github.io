@@ -262,6 +262,13 @@ select:focus {
 
 /* Navbar */
 
+.current {
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    background-color: white;
+    border-radius: 5px;
+}
+
 .hamburger {
     display: none;
     cursor: pointer;
@@ -298,7 +305,7 @@ select:focus {
         position: fixed;
         left: -100%;
         top: 70px;
-        background-color: purple;
+        background-color: white;
         width: 100%;
         text-align: center;
         transition: 0.3s;
@@ -306,6 +313,8 @@ select:focus {
 
     .nav a {
         display: block;
+        color: black;
+        border-bottom: 1px solid gray;
     }
 
     .nav.active {
