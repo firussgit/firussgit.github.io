@@ -3,6 +3,7 @@
 /* General */
 
 * {
+    -webkit-tap-highlight-color: transparent;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -67,6 +68,12 @@ footer {
 
 header {
     position: fixed;
+    width: 100%;
+    max-height: 69px;
+}
+
+header img {
+    height: 40px;
     width: 100%;
 }
 
@@ -277,6 +284,10 @@ select:focus {
 }
 
 /* Navbar */
+
+.logo {
+    padding: 0;
+}
 
 .current {
     border: 1px solid blueviolet;
