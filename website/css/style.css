@@ -1,13 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 /* General */
 
 * {
     box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+.dark {
+    background-color: rgb(33, 37, 41);
+    color: white;
 }
 
 .start,
@@ -22,7 +27,7 @@ select {
 }
 
 .start {
-    height: 70px;
+    height: 69px;
 }
 
 a {
@@ -74,15 +79,20 @@ section a {
     color: blueviolet;
 }
 
+h2 {
+    font-weight: normal;
+}
+
 /* Buttons */
 
 button {
     background-color: blueviolet;
     border: 1px solid blueviolet;
     color: white;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 10px 15px;
+    border-radius: 10px;
     cursor: pointer;
+    font-size: medium;
 }
 
 button:hover {
@@ -128,7 +138,8 @@ textarea,
 select {
     border: 1px solid purple;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 input:focus,
@@ -159,7 +170,7 @@ select:focus {
     border-color: gray;
     background-color: inherit;
     color: black;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 50px;
 }
 
@@ -266,7 +277,7 @@ select:focus {
     border: 1px solid blueviolet;
     color: blueviolet;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .hamburger {
@@ -304,7 +315,7 @@ select:focus {
     .nav {
         position: fixed;
         left: -100%;
-        top: 70px;
+        top: 69px;
         background-color: white;
         width: 100%;
         text-align: center;
@@ -319,5 +330,13 @@ select:focus {
 
     .nav.active {
         left: 0;
+    }
+
+    .nav.active .current {
+        background-color: lightgray;
+        color: purple;
+        border: none;
+        border-bottom: 1px solid gray;
+        border-radius: 0;
     }
 }
