@@ -188,6 +188,9 @@ select:focus {
 }
 
 /* Pages */
+.store h3 {
+    font-weight: bold;
+}
 
 .products {
     display: grid;
