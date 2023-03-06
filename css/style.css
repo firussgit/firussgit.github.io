@@ -45,7 +45,8 @@ img {
     width: 50%;
 }
 
-h2 {
+h2,
+h3 {
     font-weight: normal;
 }
 
