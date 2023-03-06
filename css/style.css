@@ -160,6 +160,12 @@ button a:focus {
     color: white;
 }
 
+.social-btn {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
 /* Forms */
 
 form {
@@ -188,6 +194,12 @@ select:focus {
 }
 
 /* Pages */
+
+.social-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .store h3 {
     font-weight: bold;
 }
