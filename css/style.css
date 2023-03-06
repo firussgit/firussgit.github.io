@@ -61,7 +61,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: blueviolet;
+    background-image: linear-gradient(to left, blueviolet, purple);
     color: white;
     padding: 15px;
 }
@@ -188,18 +188,28 @@ select:focus {
 
 /* Pages */
 
-.store {
+.products {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
-.store header {
+.products header {
     display: block;
 }
 
-.store img {
+.products img {
     width: 80%;
+}
+
+.products h3 {
+    font-size: medium;
+    margin-bottom: 0;
+}
+
+.products p {
+    font-size: small;
 }
 
 .btn-grp * {
@@ -264,6 +274,10 @@ select:focus {
     position: absolute;
 }
 
+.myildjo h2 {
+    font-family: cursive;
+}
+
 .myildjo label,
 .myildjo .placeholder {
     margin-bottom: 15px;
@@ -290,7 +304,8 @@ select:focus {
     outline: none;
 }
 
-.thanks {
+.thanks section,
+.not-found section {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -299,11 +314,14 @@ select:focus {
 }
 
 .thanks h2,
-.thanks p {
+.thanks p,
+.not-found h2,
+.not-found p {
     width: 80%;
 }
 
-.thanks button {
+.thanks button,
+.not-found button {
     margin-bottom: 0;
 }
 
