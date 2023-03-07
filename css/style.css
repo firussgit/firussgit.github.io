@@ -44,11 +44,6 @@ img {
     width: 50%;
 }
 
-h2,
-h3 {
-    font-weight: normal;
-}
-
 section {
     display: flex;
     flex-direction: column;
@@ -99,7 +94,6 @@ footer a:hover {
 
 footer {
     flex-direction: column;
-    font-size: small;
 }
 
 footer .logo {
@@ -131,7 +125,6 @@ button {
     padding: 10px 15px;
     border-radius: 10px;
     cursor: pointer;
-    font-size: medium;
 }
 
 button:hover {
@@ -207,10 +200,6 @@ select:focus {
     justify-content: space-evenly;
 }
 
-.store h3 {
-    font-weight: bold;
-}
-
 .products {
     display: grid;
     grid-template-columns: auto auto;
@@ -227,12 +216,7 @@ select:focus {
 }
 
 .products h3 {
-    font-size: medium;
     margin-bottom: 0;
-}
-
-.products p {
-    font-size: small;
 }
 
 .btn-grp * {
