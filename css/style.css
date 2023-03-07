@@ -327,20 +327,13 @@ select:focus {
     outline: none;
 }
 
-.thanks section,
-.not-found section {
+.thanks,
+.not-found {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.thanks h2,
-.thanks p,
-.not-found h2,
-.not-found p {
-    width: 80%;
 }
 
 .last {
