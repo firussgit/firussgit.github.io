@@ -11,6 +11,10 @@
     padding: 0;
 }
 
+body {
+    background-color: rgb(230, 230, 230);
+}
+
 .dark {
     background-color: rgb(33, 37, 41);
     color: white;
@@ -51,6 +55,10 @@ h3 {
 }
 
 section {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
     margin-left: 25%;
     margin-right: 25%;
 }
@@ -172,7 +180,6 @@ form {
     display: flex;
     flex-direction: column;
     max-width: 350px;
-    width: 80%;
     margin: auto;
 }
 
@@ -336,8 +343,7 @@ select:focus {
     width: 80%;
 }
 
-.thanks button,
-.not-found button {
+.last {
     margin-bottom: 0;
 }
 
