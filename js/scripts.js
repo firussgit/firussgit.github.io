@@ -13,12 +13,12 @@ let mode = "light"
 function theme() {
     if (mode == "light") {
         document.getElementById("smh").classList.add("dark")
+        document.getElementById("tmr").innerHTML = "Dark"
         mode = "dark"
-        console.log(mode)
     }
     else {
         document.getElementById("smh").classList.remove("dark")
+        document.getElementById("tmr").innerHTML = "Light"
         mode = "light"
-        console.log(mode)
     }
 }
