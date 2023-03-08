@@ -197,6 +197,9 @@ form {
     display: flex;
     flex-direction: column;
     max-width: 350px;
+    min-width: 270px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .form {
