@@ -9,6 +9,8 @@
     text-align: center;
     margin: 0;
     padding: 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 body {
@@ -418,8 +420,6 @@ select:focus {
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
     background-color: white;
 }
 
@@ -451,7 +451,6 @@ select:focus {
         background-color: white;
         width: 100%;
         text-align: center;
-        transition: 0.3s;
     }
 
     .dark .nav {
