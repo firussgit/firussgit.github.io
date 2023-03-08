@@ -206,12 +206,28 @@ select {
     margin-bottom: 10px;
 }
 
+.dark input,
+.dark textarea,
+.dark select {
+    background-color: gray;
+}
+
 input:focus,
 textarea:focus,
 select:focus {
     border: 1px solid purple;
     outline: 2px solid violet;
     background-color: lightgray;
+}
+
+.dark input:focus,
+.dark textarea:focus,
+.dark select:focus {
+    background-color: darkgray;
+}
+
+.dark ::placeholder {
+    color: black;
 }
 
 /* Pages */
@@ -427,10 +443,22 @@ select:focus {
         transition: 0.3s;
     }
 
+    .dark .nav {
+        background-color: rgb(43, 48, 53);
+    }
+
     .nav a {
         display: block;
         color: black;
         border-bottom: 1px solid gray;
+    }
+
+    .dark .nav a {
+        color: white;
+    }
+
+    .dark .nav a:hover {
+        color: violet;
     }
 
     .nav.active {
@@ -443,6 +471,10 @@ select:focus {
         border: none;
         border-bottom: 1px solid gray;
         border-radius: 0;
+    }
+
+    .nav.active .current:hover {
+        color: purple;
     }
 
     section {
