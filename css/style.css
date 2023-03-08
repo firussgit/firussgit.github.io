@@ -9,8 +9,8 @@
     text-align: center;
     margin: 0;
     padding: 0;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 body {
