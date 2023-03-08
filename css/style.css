@@ -173,7 +173,10 @@ form {
     display: flex;
     flex-direction: column;
     max-width: 350px;
-    margin: auto;
+}
+
+.form {
+    align-items: inherit;
 }
 
 input,
@@ -194,6 +197,10 @@ select:focus {
 }
 
 /* Pages */
+
+.store-heading {
+    min-height: auto;
+}
 
 .social-container {
     display: flex;
@@ -331,10 +338,8 @@ select:focus {
 }
 
 .current {
-    border: 1px solid blueviolet;
-    color: blueviolet;
-    background-color: white;
-    border-radius: 10px;
+    text-decoration: underline;
+    color: violet;
 }
 
 .hamburger {
