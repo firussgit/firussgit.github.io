@@ -267,6 +267,14 @@ select:focus {
     min-height: auto;
 }
 
+.store h3 {
+    font-size: medium;
+}
+
+.store p {
+    font-size: small;
+}
+
 .social-container {
     display: flex;
     justify-content: space-evenly;
