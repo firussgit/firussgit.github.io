@@ -12,13 +12,15 @@ let mode = "light"
 
 function theme() {
     if (mode == "light") {
-        document.getElementById("smh").classList.add("dark")
-        document.getElementById("tmr").innerHTML = "Dark"
+        document.getElementById("bdy").classList.add("dark")
+        document.getElementById("clk").classList.remove("fa-sun")
+        document.getElementById("clk").classList.add("fa-moon")
         mode = "dark"
     }
     else {
-        document.getElementById("smh").classList.remove("dark")
-        document.getElementById("tmr").innerHTML = "Light"
+        document.getElementById("bdy").classList.remove("dark")
+        document.getElementById("clk").classList.remove("fa-moon")
+        document.getElementById("clk").classList.add("fa-sun")
         mode = "light"
     }
 }

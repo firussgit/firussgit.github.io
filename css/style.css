@@ -89,6 +89,10 @@ header {
     max-height: 69px;
 }
 
+header .theme {
+    width: 47px;
+}
+
 header img,
 footer img {
     height: 40px;
@@ -384,6 +388,13 @@ select:focus {
 }
 
 /* Navbar */
+
+.nav-swap {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .logo {
     padding: 0;
