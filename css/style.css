@@ -12,7 +12,16 @@
 }
 
 body {
-    background-color: rgb(220, 220, 220);
+    background-color: lightgray;
+}
+
+.dark {
+    background-color: rgb(33, 37, 41);
+}
+
+.dark section {
+    background-color: rgb(43, 48, 53);
+    color: white;
 }
 
 .start,
@@ -41,7 +50,7 @@ li {
 
 img {
     max-width: 300px;
-    width: 50%;
+    width: 80%;
 }
 
 section {
@@ -56,6 +65,10 @@ section {
     padding: 20px;
     margin-left: 25%;
     margin-right: 25%;
+}
+
+section p {
+    color: gray;
 }
 
 /* Classless */
@@ -149,6 +162,11 @@ button a:focus {
     color: blueviolet;
 }
 
+.two .outline {
+    border: 1px solid white;
+    color: white;
+}
+
 .outline:hover {
     background-color: blueviolet;
     color: white;
@@ -198,6 +216,28 @@ select:focus {
 
 /* Pages */
 
+.one,
+.two {
+    background-image: url("/images/placeholders/01.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.one p,
+.two p {
+    color: lightgray;
+}
+
+.two {
+    background-image: url("/images/placeholders/02.png");
+}
+
+.hidden {
+    display: none;
+}
+
 .store-heading {
     min-height: auto;
 }
@@ -216,10 +256,6 @@ select:focus {
 
 .products header {
     display: block;
-}
-
-.products img {
-    width: 80%;
 }
 
 .products h3 {
