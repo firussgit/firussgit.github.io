@@ -11,7 +11,6 @@
 
 <body id="bdy" class="home">
     <header>
-        <div class="theme" onclick="theme()"><i id="clk" class="fa-regular fa-lg fa-sun"></i></div>
         <a class="logo" href="/"><img src="/images/logo_light.png" alt=""></a>
         <div class="nav">
             <a class="current" href="/">Home</a>
@@ -20,10 +19,14 @@
             <a href="/about">About</a>
             <a href="/contact">Contact</a>
         </div>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar bar-center"></span>
-            <span class="bar"></span>
+        <div class="nav-swap">
+            <div onclick="theme()"><i id="clk" class="fa-solid fa-lg fa-sun"></i></div>
+            <div><i class="fa-solid fa-lg fa-globe"></i></div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar bar-center"></span>
+                <span class="bar"></span>
+            </div>
         </div>
     </header>
     <div class="start"></div>

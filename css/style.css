@@ -91,10 +91,6 @@ header {
     max-height: 69px;
 }
 
-header .theme {
-    width: 47px;
-}
-
 header img,
 footer img {
     height: 40px;
@@ -406,7 +402,7 @@ select:focus {
 
 .nav-swap {
     display: flex;
-    width: 25%;
+    width: 40%;
     align-items: center;
     justify-content: space-between;
 }
@@ -464,6 +460,7 @@ select:focus {
         background-color: white;
         width: 100%;
         text-align: center;
+        height: 100%;
     }
 
     .dark .nav {
