@@ -189,6 +189,7 @@ button a:focus {
     width: 46px;
     height: 46px;
     border-radius: 50%;
+    padding: 0;
 }
 
 /* Forms */
